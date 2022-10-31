@@ -1,0 +1,17 @@
+MP=int (input ("ENTER MARKET PRICE"))
+CP=450
+D=10% MP
+SP=MP-D
+P=SP-CP
+PRPER=P/CP*100
+TP=P*10
+Print ("MARKET PRICE IS", MP)
+print ("COST PRICE IS", CP)
+print ("DISCOUNT IS", D)
+print ("SELLING PRICE", SP) 
+print ("PROFIT IS", P)
+print ("PROFIT PERCENTAGE IS", PRPER)
+if P>0:
+   print ("Profit is", P, "PROFIT PERCENTAGE IS", PRPER, "TOTAL else: FIT IN 10 PACKETS IS", TP)
+else:
+   print ("LOSS is", P, "LOSS PERCENTAGE IS", PRPER, "TOTAL LOSS IN 10 PACKETS IS", TP)
